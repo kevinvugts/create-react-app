@@ -312,7 +312,7 @@ module.exports = function (webpackEnv) {
         '@managers': paths.appSrc + '/managers',
         '@services': paths.appSrc + '/services',
         '@assets': paths.appSrc + '/assets',
-        '@public': path.appPublic,
+        '@public': path.appPublic.toString(),
         '@seed': paths.appSrc + '/seed',
         '@pages': paths.appSrc + '/pages',
         '@locales': paths.appPath + './locales',
